@@ -8,7 +8,7 @@
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
     --nav-background-color: #396e94;
-    --nav-link-color: #e7c24f;
+    --nav-link-color: #381d2a;
     --nav-hover-link-color: #a43312;
     --nav-hover-background-color: #381d2a;
 }
@@ -22,6 +22,10 @@ body {
 
 header, nav a, footer p {
     color: var(--primary-color);
+}
+
+.logo {
+    width: 40%
 }
 
 nav a {
@@ -56,13 +60,13 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-article {
+.employee {
     position: absolute;
-    top: 20%;
-    right: 10%; 
+    top: 10%;
+    left: 5%; 
     width: 25%; 
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 25px;
+    padding: 10px;
 }
 
 article img {
@@ -72,7 +76,7 @@ article img {
 }
 
 article p {
-    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
 }
 
 footer p {
