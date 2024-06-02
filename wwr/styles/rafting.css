@@ -198,3 +198,114 @@ footer .sociallinks img {
     margin-bottom: 50px;
 }
 
+/* Trips? */
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta .btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trips {
+    margin: 20px 0;
+}
+
+.trips h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.trips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.trip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.trip {
+    width: 30%;
+    text-align: center;
+}
+
+.trip img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.trip-table {
+    margin: 20px 0;
+}
+
+.trip-table h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.table-header {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.table-row {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.hero-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-banner .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+.hero-banner p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: white;
+}
